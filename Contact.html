@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Me</title>
+  <link rel="icon" type="portfolio/png" href="python.png">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   <div class="wrapper">
+      <nav>
+        <a href="index.html" class="logo">DS</a>
+        <input type="checkbox" name="" id="toggle">
+        <label for="toggle"><i class="material-icons">menu</i></label>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Contact.html" class="active">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  <section class="contact-section">
+    <h1>Contact Me</h1>
+    <p>If you'd like to work together or just say hello, feel free to send a message!</p>
+    
+    <form class="contact-form" action="">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your Name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your Email">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
